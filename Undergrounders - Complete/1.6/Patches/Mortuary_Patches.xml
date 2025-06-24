@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef/comps/li[@Class="CompProperties_MeditationFocus"][focusTypes/li="Morbid"]/offsets</xpath>
+		<value>
+			<li Class="FocusStrengthOffset_BuildingDefs">
+				<defs>
+					<undrgdrs_grimVisage>0.01</undrgdrs_grimVisage>
+					<undrgdrs_deathMasque>0.01</undrgdrs_deathMasque>
+				</defs>
+				<radius>9.9</radius>
+				<maxBuildings>8</maxBuildings>
+				<explanationKey>Meditation Focus Per Image of Death</explanationKey>
+				<explanationKeyAbstract>Meditation Focus Per Image of DeathAbstract</explanationKeyAbstract>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef/comps/li[@Class="CompProperties_MeditationFocus"][focusTypes/li="Morbid"]/offsets/li[@Class="FocusStrengthOffset_NearbyGraves"]/defs</xpath>
+		<value>
+			<li>undrgdrs_tomb</li>
+		</value>
+	</Operation>
+	
+</Patch>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>undrgdrs_Ameliorum</defName>
+		<label>raw ameliorum</label>
+		<description>the raw form of the ameliorum fungus, these spores can be mixed with proteins and nutrients to facilitate healing.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/PlantRaw/Ameliorum</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<stackLimit>150</stackLimit>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<MarketValue>3</MarketValue>
+			<Mass>0.02</Mass>
+			<Flammability>0.7</Flammability>
+			<DeteriorationRate>1.0</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+	
+</Defs>
