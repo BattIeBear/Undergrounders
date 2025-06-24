@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="Plant_Timbershroom"]/plant/sowTags</xpath>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Plant_Timbershroom"]/plant</xpath>
+				<value>
+					<sowTags>
+						<li>Ground</li>
+					</sowTags>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="Plant_Timbershroom"]/plant/sowResearchPrerequisites</xpath>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Plant_Timbershroom"]/plant</xpath>
+				<value>
+					<sowResearchPrerequisites>
+						<li>TreeSowing</li>
+					</sowResearchPrerequisites>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Plant_Timbershroom"]/plant</xpath>
+		<value>
+			<sowMinSkill>8</sowMinSkill>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Plant_Timbershroom"]/plant</xpath>
+		<value>
+			<sowWork>800</sowWork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Plant_Timbershroom"]/plant</xpath>
+		<value>
+			<mustBeWildToSow>false</mustBeWildToSow>
+		</value>
+	</Operation>
+
+</Patch>

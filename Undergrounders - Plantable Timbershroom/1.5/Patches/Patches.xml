@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>/Defs/ThingDef[defName="Plant_Timbershroom"]/plant/sowResearchPrerequisites</xpath>
+		<attribute>Inherit</attribute>
+		<value>True</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Plant_Timbershroom"]/plant</xpath>
+		<value>
+			<mustBeWildToSow Inherit="False" />
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Plant_Timbershroom"]/plant</xpath>
+		<value>
+			<interferesWithRoof Inherit="False" />
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAttributeSet">
+		<xpath>/Defs/ThingDef[defName="Plant_Timbershroom"]/plant</xpath>
+		<attribute>sowWork</attribute>
+		<value>800</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Plant_Timbershroom"]/plant</xpath>
+		<value>
+			<sowMinSkill>8</sowMinSkill>
+		</value>
+	</Operation>
+	
+</Patch>
