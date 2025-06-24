@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+	<name>Undergrounders: Mortuary Crypts and Catacombs</name>
+	<author>BattIeBear</author>
+	<packageId>BattIeBear.Undergrounders.Mortuary</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>
+V1.6
+
+Have so many skulls and corpses you don't know what to do with them? Like making tombs or cemeteries but running out of space? Just wish there were more skull motifs?
+
+This mod adds three new buildings: the Grim Visage, Death Masque, and Tomb. The Grim Visage, a skull embedded in the wall, acts as a Skull Spike, spreading fear. The Death Masque does the same, though it is covered in another decorative material. The final building, the Tomb, allows you to bury colonists within the walls and free up much-needed space.
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Ideology</packageId>
+			<displayName>Ideology</displayName>
+			<steamWorkshopUrl>https://store.steampowered.com/app/1392840</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+	</loadAfter>
+	<incompatibleWith>
+		<li>BattIeBear.Undergrounders.Complete</li>
+	</incompatibleWith>
+</ModMetaData>
