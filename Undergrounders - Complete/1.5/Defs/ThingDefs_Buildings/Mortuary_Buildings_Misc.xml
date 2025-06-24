@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase" Name="undrgdrsMementoMori">
+		<defName>undrgdrs_grimVisage</defName>
+		<label>grim visage</label>
+		<description>A human skull, embedded in a wall. To some, displayed skulls are a symbol of power. To others, they represent barbaric evil. Skullspikes are an especially brutal and effective way to terrorize slaves.</description>
+		<rotatable>true</rotatable>
+		<thingClass>Building_Skullspike</thingClass>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<graphicData>
+			<texPath>Things/Building/Misc/Mortuary/SkullWall</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawOffsetNorth>(0,0,0.9)</drawOffsetNorth>
+			<drawOffsetSouth>(0,0,-0.9)</drawOffsetSouth>
+			<drawOffsetWest>(-0.9,0,0)</drawOffsetWest>
+			<drawOffsetEast>(0.9,0,0)</drawOffsetEast>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<uiIconPath>Things/Building/Misc/Mortuary/SkullIcon</uiIconPath>
+		<passability>Standable</passability>
+		<terrainAffordanceNeeded IsNull="True" />
+		<pathCost>0</pathCost>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<WorkToBuild>330</WorkToBuild>
+			<MaxHitPoints>150</MaxHitPoints>
+			<TerrorSource>25</TerrorSource>
+			<MeditationFocusStrength>0.12</MeditationFocusStrength>
+			<Beauty>0</Beauty>
+			<Mass>15</Mass>
+		</statBases>
+		<designationCategory>Ideology</designationCategory>
+		<uiOrder>3000</uiOrder>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isAttachment>true</isAttachment>
+			<isEdifice>false</isEdifice>
+			<paintable>true</paintable>
+		</building>
+		<placeWorkers>
+			<li>Placeworker_AttachedToWall</li>
+		</placeWorkers>
+		<costList>
+			<Skull>1</Skull>
+		</costList>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<comps>
+			<li Class="CompProperties_HasSources">
+				<affectLabel>false</affectLabel>
+				<inspectStringLabel>skull of</inspectStringLabel>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="undrgdrsMementoMori">
+		<defName>undrgdrs_deathMasque</defName>
+		<label>death masque</label>
+		<description>A human skull, encased in the wall as a permanent memento. To some, displayed skulls are a symbol of power. To others, they represent barbaric evil. Skullspikes are an especially brutal and effective way to terrorize slaves.</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/Mortuary/MasqueWall</texPath>
+		</graphicData>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>1</costStuffCount>
+		<statBases>
+			<WorkToBuild>400</WorkToBuild>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Beauty>1</Beauty>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+	<defName>undrgdrs_tomb</defName>
+	<label>tomb</label>
+		<description>An ornamented burial receptacle for the honored dead.</description>
+		<thingClass>Building_Sarcophagus</thingClass>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<containedPawnsSelectable>true</containedPawnsSelectable>
+		<graphicData>
+			<texPath>Things/Building/Misc/Mortuary/TombDoor_Open</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawOffsetNorth>(0,0,0.9)</drawOffsetNorth>
+			<drawOffsetSouth>(0,0,-0.9)</drawOffsetSouth>
+			<drawOffsetWest>(-0.9,0,0)</drawOffsetWest>
+			<drawOffsetEast>(0.9,0,0)</drawOffsetEast>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<tickerType>Rare</tickerType>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<preventDeteriorationInside>true</preventDeteriorationInside>
+			<haulToContainerDuration>500</haulToContainerDuration>
+			<isEscapableContainer>true</isEscapableContainer>
+			<isAttachment>true</isAttachment>
+			<isEdifice>false</isEdifice>
+			<canPlaceOverWall>true</canPlaceOverWall>
+			<fullGraveGraphicData>
+				<texPath>Things/Building/Misc/Mortuary/TombDoor_Closed</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawOffsetNorth>(0,0,0.9)</drawOffsetNorth>
+				<drawOffsetSouth>(0,0,-0.9)</drawOffsetSouth>
+				<drawOffsetWest>(-0.9,0,0)</drawOffsetWest>
+				<drawOffsetEast>(0.9,0,0)</drawOffsetEast>
+			</fullGraveGraphicData>
+			<fixedStorageSettings>
+				<filter>
+					<categories>
+						<li>Corpses</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<categories>
+						<li>CorpsesHumanlike</li>
+					</categories>
+					<specialFiltersToDisallow>
+						<li>AllowCorpsesStranger</li>
+					</specialFiltersToDisallow>
+				</filter>
+			</defaultStorageSettings>
+			<buildingTags>
+				<li>RitualFocus</li>
+			</buildingTags>
+			<paintable>true</paintable>
+		</building>
+		<statBases>
+			<WorkToBuild>2400</WorkToBuild>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<MeditationFocusStrength>0.10</MeditationFocusStrength>
+			<Beauty>0</Beauty>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+			<li>ITab_Art</li>
+			<li>ITab_ContentsCasket</li>
+		</inspectorTabs>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtSarcophagusPlate</nameMaker>
+				<descriptionMaker>ArtDescription_SarcophagusPlate</descriptionMaker>
+				<mustBeFullGrave>true</mustBeFullGrave>
+			</li>
+			<li Class="CompProperties_AssignableToPawn">
+				<drawAssignmentOverlay>false</drawAssignmentOverlay>
+				<compClass>CompAssignableToPawn_Grave</compClass>
+			</li>
+			<li Class="CompProperties_MeditationFocus">
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes>
+					<li>Morbid</li>
+				</focusTypes>
+				<offsets>
+					<li Class="FocusStrengthOffset_GraveFull">
+						<offset>0.10</offset>
+					</li>
+					<li Class="FocusStrengthOffset_GraveCorpseRelationship">
+						<offset>0.10</offset>
+					</li>
+					<li Class="FocusStrengthOffset_NearbyGraves">
+						<defs>
+							<li>Grave</li>
+							<li>Sarcophagus</li>
+						</defs>
+						<offsetPerBuilding>0.01</offsetPerBuilding>
+						<radius>9.9</radius>
+						<maxBuildings>4</maxBuildings>
+						<focusPerFullGrave>0.01</focusPerFullGrave>
+						<explanationKey>MeditationFocusPerGrave</explanationKey>
+						<explanationKeyAbstract>MeditationFocusPerGraveAbstract</explanationKeyAbstract>
+					</li>
+				</offsets>
+			</li>
+		</comps>
+		<costStuffCount>10</costStuffCount>
+		<passability>Standable</passability>
+		<terrainAffordanceNeeded IsNull="True" />
+		<pathCost>0</pathCost>
+		<canOverlapZones>false</canOverlapZones>
+		<designationCategory>Misc</designationCategory>
+		<uiOrder>2050</uiOrder>
+		<placeWorkers>
+			<li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+			<li>Undergrounders_MortuaryCryptsAndCatacombs.Placeworker_AttachedToWall_Exclusive</li>
+		</placeWorkers>
+		<ritualFocus>
+			<spectateDistance>1</spectateDistance>
+			<allowedSpectateSides>Vertical</allowedSpectateSides>
+		</ritualFocus>
+	</ThingDef>
+</Defs>
