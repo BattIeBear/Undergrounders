@@ -1,0 +1,8 @@
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded\Assemblies\Undergrounders_DeepFabrics_VanillaMemesExpanded.dll
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded\Source\Undergrounders_DeepFabrics_VanillaMemesExpanded\obj\Debug\Undergrounders_DeepFabrics_VanillaMemesExpanded.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded\Source\Undergrounders_DeepFabrics_VanillaMemesExpanded\obj\Debug\Undergrounders_DeepFabrics_VanillaMemesExpanded.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded\Source\Undergrounders_DeepFabrics_VanillaMemesExpanded\obj\Debug\Undergrounders_DeepFabrics_VanillaMemesExpanded.dll
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded\1.5\Assemblies\Undergrounders_DeepFabrics_VanillaMemesExpanded.dll
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded\1.5\Source\Undergrounders_DeepFabrics_VanillaMemesExpanded\obj\Debug\Undergrounders_DeepFabrics_VanillaMemesExpanded.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded\1.5\Source\Undergrounders_DeepFabrics_VanillaMemesExpanded\obj\Debug\Undergrounders_DeepFabrics_VanillaMemesExpanded.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded\1.5\Source\Undergrounders_DeepFabrics_VanillaMemesExpanded\obj\Debug\Undergrounders_DeepFabrics_VanillaMemesExpanded.dll
