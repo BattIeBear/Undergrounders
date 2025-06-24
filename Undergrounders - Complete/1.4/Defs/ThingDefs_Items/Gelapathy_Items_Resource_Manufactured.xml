@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="MedicineBase">
+		<defName>undrgdrs_bioGel</defName>
+		<label>bioGel</label>
+		<description>A gooey substance, this solution of insect jelly and ameliorum spores create a potent healing cocktail. Keep Refrigerated.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Medicine/BioGel</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<statBases>
+			<MarketValue>8</MarketValue>
+			<Mass>0.35</Mass>
+			<Flammability>1</Flammability>
+			<MedicalPotency>0.50</MedicalPotency>
+			<MedicalQualityMax>0.75</MedicalQualityMax>
+			<DeteriorationRate>6</DeteriorationRate>
+			<WorkToMake>500</WorkToMake>
+		</statBases>
+		<costList>
+			<undrgdrs_Ameliorum>6</undrgdrs_Ameliorum>
+			<InsectJelly>1</InsectJelly>
+		</costList>
+		<recipeMaker>
+			<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+			<workSkill>Intellectual</workSkill>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<researchPrerequisite>DrugProduction</researchPrerequisite>
+			<skillRequirements>
+				<Intellectual>4</Intellectual>
+				<Medicine>4</Medicine>
+			</skillRequirements>
+		</recipeMaker>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>6</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<allowedArchonexusCount>20</allowedArchonexusCount>
+	</ThingDef>
+
+	<ThingDef ParentName="MedicineBase">
+		<defName>undrgdrs_RegeneGel</defName>
+		<label>regeneGel</label>
+		<description>Similar to bioGel, the addition of neutroamine boosts this sticky substances highly effective healing properties. Keep Refrigerated.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Medicine/RegeneGel</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>14</MarketValue>
+			<Mass>0.50</Mass>
+			<Flammability>1</Flammability>
+			<MedicalPotency>0.90</MedicalPotency>
+			<MedicalQualityMax>1.00</MedicalQualityMax>
+			<DeteriorationRate>2</DeteriorationRate>
+			<WorkToMake>1000</WorkToMake>
+		</statBases>
+		<costList>
+			<undrgdrs_Ameliorum>10</undrgdrs_Ameliorum>
+			<InsectJelly>1</InsectJelly>
+			<Neutroamine>1</Neutroamine>
+		</costList>
+		<recipeMaker>
+			<workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+			<workSkill>Intellectual</workSkill>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<researchPrerequisite>MedicineProduction</researchPrerequisite>
+			<skillRequirements>
+				<Intellectual>4</Intellectual>
+				<Medicine>4</Medicine>
+			</skillRequirements>
+		</recipeMaker>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>18</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<allowedArchonexusCount>10</allowedArchonexusCount>
+	</ThingDef>
+	
+</Defs>
