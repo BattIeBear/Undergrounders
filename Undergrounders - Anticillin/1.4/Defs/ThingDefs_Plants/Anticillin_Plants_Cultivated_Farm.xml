@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="CavePlantBase">
+		<defName>undrgdrs_Plant_Anticillum</defName>
+		<label>anticillum mold</label>
+		<description>A bioengineered mold that grows and ferments itself simultaneously. While inedible, it can be treated to produce an effective antibiotic.\n\nCan only be grown in a hydroponics basin, and exposure to any amount of light will ruin the fragile fermentation process.</description>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<Nutrition>0.0</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/Anticillium</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>14</pathCost>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+		</ingestible>
+		<plant>
+			<fertilitySensitivity>1</fertilitySensitivity>
+			<growDays>8</growDays>
+			<dieIfLeafless>true</dieIfLeafless>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>undrgdrs_PreparedAnticillium</harvestedThingDef>
+			<harvestYield>1</harvestYield>
+			<sowMinSkill>8</sowMinSkill>
+			<sowTags>
+				<li>Hydroponic</li>
+			</sowTags>
+			<sowResearchPrerequisites>
+				<li>MedicineProduction</li>
+				<li>Hydroponics</li>
+			</sowResearchPrerequisites>
+			<topWindExposure>0.2</topWindExposure>
+			<visualSizeRange>0.82~0.95</visualSizeRange>
+			<wildOrder>2</wildOrder>
+			<purpose>Health</purpose>
+		</plant>
+	</ThingDef>
+
+</Defs>
