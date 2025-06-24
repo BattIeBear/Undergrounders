@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+	<name>Undergrounders: Complete</name>
+	<author>BattIeBear</author>
+	<packageId>BattIeBear.Undergrounders.Complete</packageId>
+	<supportedVersions>
+		<li>1.3</li>
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>
+V1.6
+
+The complete version of all my Undergrounders mods to date, with any new standalone versions also being updated here! This mod requires both DLCs to function properly, and currently contains:
+
+ - Anticillin, a new mold-based antibiotic.
+ - Darklight, adding darklight/fungus fueled versions of campfires and a fungus fueled brazier.
+ - Deep Fabrics, two new plants that produce cloth and a fungus-based leather.
+ - Gelapathy, a new medicinal fungus that, when combined with insect jelly, produces effective medicine.
+ - Ghostwort and Glowstool, a new underground decorative plant.
+ - Mortuary, including two new uses for skulls and a new building, the tomb, which lets you bury pawns within the walls.
+ - Plantable Timbershroom, making the already present timbershroom plantable with the tree sowing research.
+
+Important: Please unsubscribe from all the mods listed above if you plan on installing this one.
+
+As of 1.6, the compatibility patch for Vanilla Memes Expanded is no longer included in this mod, as it would force this entire mod to use Harmony. For compatibility, it is now a separate mod.
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Ideology</packageId>
+			<displayName>Ideology</displayName>
+			<steamWorkshopUrl>https://store.steampowered.com/app/1392840</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>VanillaExpanded.VFECore</li>
+	</loadAfter>
+</ModMetaData>
