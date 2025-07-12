@@ -116,7 +116,7 @@
 			<destroySound>BuildingDestroyed_Wood_Small</destroySound>
 		</building>
 		<modExtensions>
-			<li Class="RecipeInheritance.ThingDefExtension">
+			<li Class="VEF.Buildings.RecipeInheritanceExtension">
 				<inheritRecipesFrom>
 					<li>Campfire</li>
 				</inheritRecipesFrom>
