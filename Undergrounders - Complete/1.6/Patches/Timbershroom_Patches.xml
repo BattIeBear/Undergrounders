@@ -3,11 +3,11 @@
 
 	<Operation Class="PatchOperationSequence">
 		<operations>
-			
+
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName="Plant_Timbershroom"]/plant/sowTags</xpath>
 			</li>
-			
+
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="Plant_Timbershroom"]/plant</xpath>
 				<value>
@@ -16,13 +16,13 @@
 					</sowTags>
 				</value>
 			</li>
-			
+
 		</operations>
 	</Operation>
 
 	<Operation Class="PatchOperationSequence">
 		<operations>
-			
+
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName="Plant_Timbershroom"]/plant/sowResearchPrerequisites</xpath>
 			</li>
@@ -35,8 +35,15 @@
 					</sowResearchPrerequisites>
 				</value>
 			</li>
-			
+
 		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Plant_Timbershroom"]/plant</xpath>
+		<value>
+			<interferesWithRoof>false</interferesWithRoof>
+		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
