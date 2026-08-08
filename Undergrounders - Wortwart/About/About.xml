@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+	<name>Undergrounders: Wortwart</name>
+	<author>BattIeBear</author>
+	<packageId>BattIeBear.Undergrounders.Wortwart</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>
+V1.6
+
+This mod adds a new type of fungus, wortwart, which, as the name suggests, can be turned into wort at a brewery. Like most fungi, it must be grown in complete darkness.
+
+Found an issue? Like my mod? Leave a comment!
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Ideology</packageId>
+			<displayName>Ideology</displayName>
+			<steamWorkshopUrl>https://store.steampowered.com/app/1392840</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+	</loadAfter>
+	<incompatibleWith>
+		<li>BattIeBear.Undergrounders.Complete</li>
+	</incompatibleWith>
+</ModMetaData>

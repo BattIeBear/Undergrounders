@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+    <defName>undrgdrs_Make_Wort</defName>
+    <label>make wort from wortwart</label>
+    <description>Make wort from wortwart fungus.</description>
+    <jobString>Making wort.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>undrgdrs_RawWortwart</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>undrgdrs_RawWortwart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Wort>5</Wort>
+    </products>
+  </RecipeDef>
+	
+</Defs>
