@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BuildingBase" Name="undrgdrsMementoMori">
 		<defName>undrgdrs_grimVisage</defName>
 		<label>grim visage</label>
-		<description>A human skull, embedded in a wall. To some, displayed skulls are a symbol of power. To others, they represent barbaric evil. Skullspikes are an especially brutal and effective way to terrorize slaves.</description>
+		<description>A human skull, embedded in a wall. To some, displayed skulls are a symbol of power. To others, they represent barbaric evil. These skulls are an especially brutal and effective way to terrorize slaves.</description>
 		<rotatable>true</rotatable>
 		<thingClass>Building_Skullspike</thingClass>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
@@ -62,7 +62,7 @@
 	<ThingDef ParentName="undrgdrsMementoMori">
 		<defName>undrgdrs_deathMasque</defName>
 		<label>death masque</label>
-		<description>A human skull, encased in the wall as a permanent memento. To some, displayed skulls are a symbol of power. To others, they represent barbaric evil. Skullspikes are an especially brutal and effective way to terrorize slaves.</description>
+		<description>A human skull, encased in the wall as a permanent memento. To some, displayed skulls are a symbol of power. To others, they represent barbaric evil. These skulls are an especially brutal and effective way to terrorize slaves.</description>
 		<graphicData>
 			<texPath>Things/Building/Misc/Mortuary/MasqueWall</texPath>
 		</graphicData>
