@@ -6,3 +6,7 @@ C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Mortuary Crypts and Cat
 C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Mortuary Crypts and Catacombs\1.6\Source\Undergrounders - Mortuary Crypts and Catacombs\obj\Debug\Undergrounders - Mortuary Crypts and Catacombs.csproj.AssemblyReference.cache
 C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Mortuary Crypts and Catacombs\1.6\Source\Undergrounders - Mortuary Crypts and Catacombs\obj\Debug\Undergrounders - Mortuary Crypts and Catacombs.csproj.CoreCompileInputs.cache
 C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Mortuary Crypts and Catacombs\1.6\Source\Undergrounders - Mortuary Crypts and Catacombs\obj\Debug\Undergrounders - Mortuary Crypts and Catacombs.dll
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Complete\1.6\Assemblies\Undergrounders - Mortuary Crypts and Catacombs.dll
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Complete\1.6\Source\Undergrounders - Mortuary Crypts and Catacombs\obj\Debug\Undergrounders - Mortuary Crypts and Catacombs.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Complete\1.6\Source\Undergrounders - Mortuary Crypts and Catacombs\obj\Debug\Undergrounders - Mortuary Crypts and Catacombs.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Complete\1.6\Source\Undergrounders - Mortuary Crypts and Catacombs\obj\Debug\Undergrounders - Mortuary Crypts and Catacombs.dll
