@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- Adds the proper UI order to the campfire, and replaces it if it already exists -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="Campfire"]/uiOrder</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Campfire"]/uiOrder</xpath>
+			<value>
+				<uiOrder>1</uiOrder>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="Campfire"]</xpath>
+			<value>
+				<uiOrder>1</uiOrder>
+			</value>
+		</nomatch>
+	</Operation>
+	
+	<!-- Makes the new campfires work for rituals -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RitualObligationTargetFilterDef[defName="RitualSpotOrCampfireParty"]/thingDefs</xpath>
+		<value>
+			<li>undrgdrs_Darkfire</li>
+			<li>undrgdrs_FungusDarkfire</li>
+			<li MayRequire="VanillaExpanded.VFECore">Stone_FungusDarklightCampfire</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/RitualOutcomeEffectDef[defName="CelebrationPartyDanceDrum"]/comps/li/defs</xpath>
+		<value>
+			<li>undrgdrs_Darkfire</li>
+			<li>undrgdrs_FungusDarkfire</li>
+			<li MayRequire="VanillaExpanded.VFECore">Stone_FungusDarklightCampfire</li>
+		</value>
+	</Operation>
+	
+	<!-- Locates things that implement the comp 'CompProperties_MeditationFocus' of the focus type 'Flame' 
+	and adds the new buildings defs to the 'FocusStrengthOffset_BuildingDefsLit' defs list, so they contribute 
+	to the fire type meditation bonus from surounding fire sources-->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef/comps/li[@Class="CompProperties_MeditationFocus"][focusTypes/li="Flame"]/offsets/li[@Class="FocusStrengthOffset_BuildingDefsLit"]/defs</xpath>
+		<value>
+			<li>undrgdrs_Darkfire</li>
+			<li>undrgdrs_FungusDarkfire</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">undrgdrs_FungusDarklightBrazier</li>
+			<li MayRequire="VanillaExpanded.VFECore">Stone_FungusDarklightCampfire</li>
+		</value>
+	</Operation>
+	
+	<!-- Locates all RoyalTitleDefs and adds the new buildings defs to the throneRoomRequirements defs list, so they contribute properly-->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RoyalTitleDef/throneRoomRequirements/li[@Class="RoomRequirement_ThingAnyOfCount"]/things</xpath>
+					<value>
+						<li>undrgdrs_FungusDarklightBrazier</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RoyalTitleDef/throneRoomRequirements/li[@Class="RoomRequirement_AllThingsAnyOfAreGlowing"]/things</xpath>
+					<value>
+						<li>undrgdrs_FungusDarklightBrazier</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+	<!-- Connects darkfires to the campfire workbill -->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/WorkGiverDef[defName="DoBillsCookCampfire"]/fixedBillGiverDefs</xpath>
+		<value>
+			<li>undrgdrs_Darkfire</li>
+			<li>undrgdrs_FungusDarkfire</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/WorkGiverDef[defName="DoBillsHaulCampfire"]/fixedBillGiverDefs</xpath>
+		<value>
+			<li>undrgdrs_Darkfire</li>
+			<li>undrgdrs_FungusDarkfire</li>
+		</value>
+	</Operation>
+	
+	<!-- Connects Stone_FungusDarklightCampfire to the VFE workbill -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/WorkGiverDef[defName="DoBillsCookStone_Campfire"]/fixedBillGiverDefs</xpath>
+					<value>
+						<li>Stone_FungusDarklightCampfire</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/WorkGiverDef[defName="DoBillsHaulStone_Campfire"]/fixedBillGiverDefs</xpath>
+					<value>
+						<li>Stone_FungusDarklightCampfire</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

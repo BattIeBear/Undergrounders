@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Plant_Timbershroom"]/plant</xpath>
+		<value>
+			<interferesWithRoof>false</interferesWithRoof>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Plant_Timbershroom"]/plant</xpath>
+		<value>
+			<sowMinSkill>8</sowMinSkill>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Plant_Timbershroom"]/plant</xpath>
+		<value>
+			<sowWork>800</sowWork>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Plant_Timbershroom"]/plant</xpath>
+		<value>
+			<mustBeWildToSow>false</mustBeWildToSow>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "Plant_Timbershroom"]/plant/mustBePermanentDarknessToSow</xpath>
+		<value>
+			<mustBePermanentDarknessToSow>false</mustBePermanentDarknessToSow>
+		</value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="CavePlantBase">
+		<defName>undrgdrs_Plant_Ameliorum</defName>
+		<label>ameliorum</label>
+		<description>A bioengineered fungus, when combined with a specific mix of proteins and nutrients its spores can facilitate healing.\n\nIt can grow on fungal gravel, but only in darkness - exposing it to any kind of light, including darklights, will kill it.</description>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<Flammability>1.3</Flammability>
+			<Nutrition>0.2</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/Ameliorum</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>14</pathCost>
+		<ingestible />
+		<plant>
+			<fertilityMin>0.3</fertilityMin>
+			<fertilitySensitivity>0.4</fertilitySensitivity>
+			<growDays>6</growDays>
+			<sowWork>800</sowWork>
+			<sowMinSkill>8</sowMinSkill>
+			<dieIfLeafless>true</dieIfLeafless>
+			<maxMeshCount>4</maxMeshCount>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>undrgdrs_Ameliorum</harvestedThingDef>
+			<harvestYield>2</harvestYield>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<sowResearchPrerequisites>
+				<li>DrugProduction</li>
+			</sowResearchPrerequisites>
+			<topWindExposure>0</topWindExposure>
+			<cavePlantWeight>0</cavePlantWeight>
+			<neverBlightable>false</neverBlightable>
+			<visualSizeRange>0.4~0.7</visualSizeRange>
+			<wildOrder>2</wildOrder>
+			<purpose>Health</purpose>
+		</plant>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThoughtDef>
+		<defName>undrgdrs_MementoMori</defName>
+		<workerClass>Undergrounders_MortuaryCryptsAndCatacombs.ThoughtWorker_MementoMori</workerClass>
+		<stages>
+			<li>
+				<label>blood lighting</label>
+				<description>The light flickers, almost like a pulse...</description>
+				<baseMoodEffect>0</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>
