@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>Make_Fungusleather</defName>
+		<label>make fungus leather</label>
+		<description>Treat the root-structure of edible fungus to create surprisingly tough leather-like material.</description>
+		<jobString>Making fungus leather.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>900</workAmount>
+		<targetCountAdjustment>50</targetCountAdjustment>
+		<recipeUsers>
+			<li>ElectricTailoringBench</li>
+			<li>HandTailoringBench</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawFungus</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<products>
+			<undrgdrs_Fungus_Leather>20</undrgdrs_Fungus_Leather>
+		</products>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+	
+</Defs>
