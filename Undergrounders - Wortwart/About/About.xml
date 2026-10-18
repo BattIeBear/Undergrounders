@@ -5,9 +5,10 @@
 	<packageId>BattIeBear.Undergrounders.Wortwart</packageId>
 	<supportedVersions>
 		<li>1.6</li>
+		<li>1.7</li>
 	</supportedVersions>
 	<description>
-V1.6
+V1.7
 
 This mod adds a new type of fungus, wortwart, which, as the name suggests, can be turned into wort at a brewery. Like most fungi, it must be grown in complete darkness.
 
