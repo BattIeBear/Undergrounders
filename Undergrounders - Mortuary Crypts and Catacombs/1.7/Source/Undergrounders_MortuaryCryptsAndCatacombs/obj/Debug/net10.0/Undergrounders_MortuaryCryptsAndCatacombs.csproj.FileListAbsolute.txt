@@ -1,0 +1,13 @@
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Mortuary Crypts and Catacombs\1.7\Assemblies\Debug\net10.0\Undergrounders_MortuaryCryptsAndCatacombs.deps.json
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Mortuary Crypts and Catacombs\1.7\Assemblies\Debug\net10.0\Undergrounders_MortuaryCryptsAndCatacombs.dll
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Mortuary Crypts and Catacombs\1.7\Assemblies\Debug\net10.0\Undergrounders_MortuaryCryptsAndCatacombs.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Mortuary Crypts and Catacombs\1.7\Source\Undergrounders_MortuaryCryptsAndCatacombs\obj\Debug\net10.0\Undergrounders_MortuaryCryptsAndCatacombs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Mortuary Crypts and Catacombs\1.7\Source\Undergrounders_MortuaryCryptsAndCatacombs\obj\Debug\net10.0\Undergrounders_MortuaryCryptsAndCatacombs.AssemblyInfoInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Mortuary Crypts and Catacombs\1.7\Source\Undergrounders_MortuaryCryptsAndCatacombs\obj\Debug\net10.0\Undergrounders_MortuaryCryptsAndCatacombs.AssemblyInfo.cs
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Mortuary Crypts and Catacombs\1.7\Source\Undergrounders_MortuaryCryptsAndCatacombs\obj\Debug\net10.0\Undergrounders_MortuaryCryptsAndCatacombs.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Mortuary Crypts and Catacombs\1.7\Source\Undergrounders_MortuaryCryptsAndCatacombs\obj\Debug\net10.0\Undergrounders_MortuaryCryptsAndCatacombs.dll
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Mortuary Crypts and Catacombs\1.7\Source\Undergrounders_MortuaryCryptsAndCatacombs\obj\Debug\net10.0\refint\Undergrounders_MortuaryCryptsAndCatacombs.dll
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Mortuary Crypts and Catacombs\1.7\Source\Undergrounders_MortuaryCryptsAndCatacombs\obj\Debug\net10.0\Undergrounders_MortuaryCryptsAndCatacombs.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Mortuary Crypts and Catacombs\1.7\Source\Undergrounders_MortuaryCryptsAndCatacombs\obj\Debug\net10.0\ref\Undergrounders_MortuaryCryptsAndCatacombs.dll
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Mortuary Crypts and Catacombs\1.7\Source\Undergrounders_MortuaryCryptsAndCatacombs\obj\Debug\net10.0\Undergro.2FB05811.Up2Date
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Mortuary Crypts and Catacombs\1.7\Source\Undergrounders_MortuaryCryptsAndCatacombs\obj\Debug\net10.0\Undergrounders_MortuaryCryptsAndCatacombs.csproj.AssemblyReference.cache
