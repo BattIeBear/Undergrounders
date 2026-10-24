@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyTitle></AssemblyTitle>
+    <RootNamespace>Undergrounders_DeepFabrics_VanillaMemesExpanded</RootNamespace>
+    <AssemblyName>Undergrounders_DeepFabrics_VanillaMemesExpanded</AssemblyName>
+    <BaseOutputPath>C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded Patch\1.7\Assemblies</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\..\..\workshop\content\294100\2009463077\1.7\Assemblies\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityStubs">
+      <HintPath>..\..\..\..\..\UnityStubs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VanillaMemesExpanded">
+      <HintPath>..\..\..\..\..\..\..\workshop\content\294100\2636329500\1.6\Assemblies\VanillaMemesExpanded.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Waylith">
+      <HintPath>..\..\..\..\..\Waylith.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

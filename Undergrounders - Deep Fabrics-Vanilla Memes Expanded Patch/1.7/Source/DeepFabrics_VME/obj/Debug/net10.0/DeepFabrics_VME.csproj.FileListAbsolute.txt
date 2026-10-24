@@ -1,0 +1,13 @@
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded Patch\1.7\Assemblies\Debug\net10.0\Undergrounders_DeepFabrics_VanillaMemesExpanded.deps.json
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded Patch\1.7\Assemblies\Debug\net10.0\Undergrounders_DeepFabrics_VanillaMemesExpanded.dll
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded Patch\1.7\Assemblies\Debug\net10.0\Undergrounders_DeepFabrics_VanillaMemesExpanded.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded Patch\1.7\Source\DeepFabrics_VME\obj\Debug\net10.0\DeepFabrics_VME.csproj.AssemblyReference.cache
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded Patch\1.7\Source\DeepFabrics_VME\obj\Debug\net10.0\DeepFabrics_VME.GeneratedMSBuildEditorConfig.editorconfig
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded Patch\1.7\Source\DeepFabrics_VME\obj\Debug\net10.0\DeepFabrics_VME.AssemblyInfoInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded Patch\1.7\Source\DeepFabrics_VME\obj\Debug\net10.0\DeepFabrics_VME.AssemblyInfo.cs
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded Patch\1.7\Source\DeepFabrics_VME\obj\Debug\net10.0\DeepFabrics_VME.csproj.CoreCompileInputs.cache
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded Patch\1.7\Source\DeepFabrics_VME\obj\Debug\net10.0\Undergrounders_DeepFabrics_VanillaMemesExpanded.dll
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded Patch\1.7\Source\DeepFabrics_VME\obj\Debug\net10.0\refint\Undergrounders_DeepFabrics_VanillaMemesExpanded.dll
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded Patch\1.7\Source\DeepFabrics_VME\obj\Debug\net10.0\Undergrounders_DeepFabrics_VanillaMemesExpanded.pdb
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded Patch\1.7\Source\DeepFabrics_VME\obj\Debug\net10.0\ref\Undergrounders_DeepFabrics_VanillaMemesExpanded.dll
+C:\Steam\steamapps\common\RimWorld\Mods\Undergrounders - Deep Fabrics-Vanilla Memes Expanded Patch\1.7\Source\DeepFabrics_VME\obj\Debug\net10.0\DeepFabr.1C69F37D.Up2Date
