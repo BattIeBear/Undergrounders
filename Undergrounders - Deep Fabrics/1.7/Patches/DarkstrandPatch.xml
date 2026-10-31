@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Plants Expanded - Mushrooms</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="undrgdrs_Plant_Darkstrand"]/plant/sowTags</xpath>
+			<value>
+				<li>VPE_Mushroom</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>
+
