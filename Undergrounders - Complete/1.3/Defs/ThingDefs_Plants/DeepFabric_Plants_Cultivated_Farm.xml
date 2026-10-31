@@ -63,7 +63,7 @@
 			<sowTags>
 				<li>Ground</li>
 			</sowTags>
-			<sowMinSkill>10</sowMinSkill>
+			<sowMinSkill>8</sowMinSkill>
 			<sowResearchPrerequisites>
 				<li>Devilstrand</li>
 			</sowResearchPrerequisites>

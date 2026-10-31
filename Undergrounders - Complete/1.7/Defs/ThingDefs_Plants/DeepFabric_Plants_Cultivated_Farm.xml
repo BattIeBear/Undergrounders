@@ -63,7 +63,7 @@
 			<sowTags>
 				<li>Ground</li>
 			</sowTags>
-			<sowMinSkill>10</sowMinSkill>
+			<sowMinSkill>8</sowMinSkill>
 			<sowResearchPrerequisites>
 				<li>Devilstrand</li>
 			</sowResearchPrerequisites>
@@ -71,6 +71,7 @@
 			<cavePlantWeight>0</cavePlantWeight>
 			<visualSizeRange>0.3~1.0</visualSizeRange>
 			<wildOrder>2</wildOrder>
+			<pollution>Any</pollution>
 		</plant>
 	</ThingDef>
 	
